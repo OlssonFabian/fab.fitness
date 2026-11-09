@@ -177,6 +177,9 @@ canvas#trace{width:100%;height:190px;display:block;max-width:100%}
 .facts li::before{content:"";width:14px;height:8px;margin-top:8px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
 @media (max-width:760px){.privacy{grid-template-columns:1fr}}
 
+/* development status under the hero buttons */
+.dev-status{display:flex;align-items:center;gap:10px;margin:22px 0 0;font-size:14px;color:var(--muted, #9fb3ad)}
+.dev-status i{flex:none;width:8px;height:8px;border-radius:50%;background:#f0b44c;box-shadow:0 0 0 4px rgba(240,180,76,.15)}
 /* pilot – a real timeline */
 .pilot{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:clamp(32px,6vw,72px);align-items:start}
 .phases{list-style:none;margin:0;padding:0;display:grid;gap:0}
@@ -250,6 +253,7 @@ footer .wrap{align-items:center;display:flex;flex-wrap:wrap;justify-content:spac
           <a class="btn primary" href="#kontakt">Boka demo</a>
           <a class="btn quiet" href="#pilot">Pilot för gym</a>
         </div>
+        <p class="dev-status"><i aria-hidden="true"></i>Under utveckling. En prototyp att visa upp finns tillgänglig mycket snart.</p>
       </div>
       <figure class="monitor" aria-label="Exempel på livevyn: bänkpress, bröst vänster och höger">
         <div class="monitor-head"><span>Bänkpress · set 2</span><span class="live">LIVE</span></div>
@@ -453,7 +457,7 @@ footer .wrap{align-items:center;display:flex;flex-wrap:wrap;justify-content:spac
       <div class="founder-copy">
         <span class="label">Om Fabian</span>
         <h2>Utvecklare och personlig tränare</h2>
-        <p class="lede">Jag heter Fabian Olsson. Jag är personlig tränare och grupptränare på STC Ystad, löpcoach på Run Academy och har arbetat som utvecklare sedan 2020.</p>
+        <p class="lede">Jag heter Fabian Olsson. Jag är personlig tränare och grupptränare på STC Ystad, löpcoach på Runacademy och har arbetat som utvecklare sedan 2020.</p>
         <p>I mitt arbete som PT får jag ofta samma frågor: arbetar muskeln jag vill träffa, och tar båda sidorna lika mycket? Känslan säger mycket men inte allt. Med FAB EMG kan jag visa det klienten känner, set för set, och planera träningen efter mätningar.</p>
         <p>På fritiden tränar jag gärna bänkpress, och 2026 genomförde jag en svensk klassiker. Fler är planerade.</p>
         <div class="facts-row">
@@ -464,7 +468,7 @@ footer .wrap{align-items:center;display:flex;flex-wrap:wrap;justify-content:spac
         <ul class="timeline" aria-label="Bakgrund">
           <li><span>2020</span><div>Utvecklare</div></li>
           <li><span>2022</span><div>Personlig tränare och grupptränare på STC Ystad</div></li>
-          <li><span>2026</span><div>Löpcoach på Run Academy</div></li>
+          <li><span>2026</span><div>Löpcoach på Runacademy</div></li>
           <li><span>2026</span><div>Genomför en svensk klassiker</div></li>
           <li><span>2026</span><div>Grundar FAB och utvecklar FAB EMG</div></li>
         </ul>
@@ -476,7 +480,7 @@ footer .wrap{align-items:center;display:flex;flex-wrap:wrap;justify-content:spac
     <div class="wrap"><div class="contact">
       <span class="label">Kontakt</span>
       <h2>Boka en demo</h2>
-      <p class="lede">Jag visar gärna FAB EMG på plats. En demo tar ungefär 15 minuter och du får ha sensorerna på dig själv. Berätta gärna om ni är ett gym, en PT eller tränar på egen hand.</p>
+      <p class="lede">FAB EMG är under utveckling, och en prototyp att visa upp finns tillgänglig mycket snart. Hör av dig redan nu, så bokar vi en demo på plats så fort den är klar. Den tar ungefär 15 minuter och du får ha sensorerna på dig själv. Berätta gärna om ni är ett gym, en PT eller tränar på egen hand.</p>
       <div class="mail">
         <code id="email">hej@fab.fitness</code>
         <button class="btn quiet" type="button" id="copyEmail">Kopiera</button>
