@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>FAB Fitness</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="FAB visar hur dina muskler arbetar under träningen, med pulsen bredvid. Utvecklat av en personlig tränare för gym, tränare och dig som tränar själv.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -218,6 +222,8 @@ footer .foot-brand{display:inline-flex;align-items:center;gap:14px}
 footer .logo svg{height:16px;fill:var(--muted)}
 footer .wrap{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 </style>
+</head>
+<body>
 
 <header class="top">
   <div class="wrap">
@@ -550,3 +556,5 @@ document.getElementById('copyEmail').addEventListener('click', () => {
   try { navigator.clipboard.writeText(el.textContent).then(() => { note.textContent = 'Kopierad.'; }, select); } catch (_) { select(); }
 });
 </script>
+</body>
+</html>
