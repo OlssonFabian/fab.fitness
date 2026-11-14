@@ -1,0 +1,31 @@
+# FAB EMG
+
+> FAB EMG är ett svenskt träningsverktyg som mäter muskelaktivitet (EMG) med trådlösa sensorer på huden och visar den i realtid på telefonen och gymmets skärm, med pulsen från ett vanligt Bluetooth-pulsband bredvid. Utvecklat av Fabian Olsson, personlig tränare och utvecklare. Produkten är under utveckling; en prototyp att visa upp finns snart.
+
+Webbplats: https://fab.fitness/ · Kontakt: hej@fab.fitness · Språk: svenska
+
+## Vad FAB EMG gör
+- Muskelaktivitet live: en kurva per sensor och muskel, vänster och höger sida.
+- Sidobalans: skillnaden mellan vänster och höger, per muskel och över tid.
+- Automatisk räkning av reps och tempo ur aktiveringskurvan.
+- Procent av egen maxkraft (MVC) efter en kort kalibrering, så pass kan jämföras över tid.
+- Puls från vanliga pulsband (t.ex. Polar H10, Garmin HRM, Wahoo TICKR): puls, zon, procent av maxpuls, tid i zon och återhämtning. Vila kan styras av när pulsen har gått ner.
+- Flera personer samtidigt på samma skärm; tränaren styr passet från mobilen.
+- Sammanfattning efter varje pass, veckorapport och träningsförslag baserade på egna mätningar. AI-sammanfattningar är ett frivilligt tillval.
+
+## För vem
+- Gym: ett tillägg till PT-pass och gruppass. Gymmet behöver en TV med HDMI.
+- Personliga tränare och gruppinstruktörer med klienter.
+- Den som tränar på egen hand och vill se vilken övning som aktiverar en muskel bäst.
+
+## Teknik och data
+- Allt körs lokalt på FAB Hub (Raspberry Pi) i lokalen och fungerar utan internet.
+- Inget spelas in utan personens samtycke; var och en kan ladda ner eller radera sin data.
+- AI får bara nyckeltal, aldrig namn eller rådata.
+- Inte medicinsk utrustning; ställer inga diagnoser.
+
+## Status
+- Under utveckling (2026). Pris och upplägg är inte bestämt. Intresseanmälan och demo via hej@fab.fitness.
+
+## Om grundaren
+- Fabian Olsson: personlig tränare och grupptränare sedan 2022, löpcoach på Runacademy, utvecklare sedan 2020. FAB är hans eget projekt.

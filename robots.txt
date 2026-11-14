@@ -1,0 +1,5 @@
+# Alla sökmotorer och AI-tjänster är välkomna
+User-agent: *
+Allow: /
+
+Sitemap: https://fab.fitness/sitemap.xml
